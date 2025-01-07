@@ -14,5 +14,5 @@ app.use((error: Error, req: Request, res: Response, next: NextFunction) => {
 })
 
 app.listen(3011, () => {
-    console.log('Server is started at http://localhost:3011')
+    console.log('Server is started at http://localhost:3011/todos')
 })
